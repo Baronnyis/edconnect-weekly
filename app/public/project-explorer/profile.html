@@ -30,82 +30,63 @@
             <h2>Update Profile</h2>
         <form name="updateProfile">
             <p>
-                <label for="first name"> 
-                    First Name:
-                    <input type="text" name="firstName" id="firstName" required >
-                </label>
+                <label for="firstName">First Name:</label>
+                <input type="text" name="firstName" id="firstName" required >
             </p>
             <p>
-                <label for="last name">
-                    Last Name:
-                  <input type="text" name="lastName" id="lastName" required >
-                </label>
+                <label for="lastName">Last Name:</label>
+                <input type="text" name="lastName" id="lastName" required >
             </p>
             <p>
-                <label for="email address">
-                    Email Address:
-                    <input type="email" name="email" id="emailAddress" required/>
-                </label>
+                <label for="emailAddress">Email Address:</label>
+                <input type="email" name="email" id="emailAddress" required/>
             </p>
-        <p>
-            <label for="matric number">
-                Matric Number:
-                <input type="number" id="matricNumber" required>
-            </label>
+            <p>
+                <label for="matricNumber">Matric Number:</label>
+                <input type="text" id="matricNumber" required>
+            </p>
+            <p>
+            <label for="program">Program</label>
+            <select name="program" id="program" required>
+                <option value="computer_science">Computer Science</option>
+                <option value="computer_information_systems">Computer Information systems</option>
+                <option value="computer_technology">Computer Technology</option>
+            </select>
         </p>
         <p>
-            <label for="program">
-                Program
-                    <select id="program" required>
-                        <option value="computer_science">Computer Science</option>
-                        <option value="computer_information_systems">Computer Information systems</option>
-                        <option value="computer_technology">Computer Technology</option>
-                    </select>
-            </label>
-        </p>
-        <p>
-            <label for="graduation year" class="label">
-             Year of Graduation: </label>
-                <select name="Graduation Year" id="graduationYear" required >
-                    <option value="2013">2013</option>
-                    <option value="2014">2014</option>
-                    <option value="2015">2015</option>
-                    <option value="2016">2016</option>
-                    <option value="2017">2017</option>
-                    <option value="2018">2018</option>
-                    <option value="2019">2019</option>
-                    <option value="2020">2020</option>
-                    <option value="2013">2020</option>
-        </p>
-        <article>
+            <label for="graduationYear" class="label">Year of Graduation: </label>
+            <select name="GraduationYear" id="graduationYear" required >
+                <option value="2013">2013</option>
+                <option value="2014">2014</option>
+                <option value="2015">2015</option>
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+                <option value="2013">2020</option>
+            </p>
             <input  type="submit" />
-        </article>
         </form>
-        </section>
-        <section>
-            <h2> Change Password </h2>
-            <form name="changePassword">
-                <p>
-                    <label for="currentPassword">
-                        Current Password:
-                         <input type="password" name="currentPassword" id="currentPassword" required/>
-                     </label>
-                </p>
-                <p>
-                    <label for="newPassword">
-                        New Password:
-                         <input type="password" name="newPassword" id="newPassword" required/>
-                     </label>
-                </p>
-                <p>
-                    <label for="confirmPassword">
-                        Confirm Password:
-                         <input type="password" name="confirmPassword" id="confirmPassword" required/>
-                     </label>
-                </p>
-                <input type="submit" />
-            </form>
-        </section>
-    </main>
+    </section>
+    <section>
+        <h2> Change Password </h2>
+        <form name="changePassword">
+            <p>
+                <label for="currentPassword">Current Password:</label>
+                <input type="password" name="currentPassword" id="currentPassword" required/>
+            </p>
+            <p>
+                <label for="newPassword">New Password:</label>
+                <input type="password" name="newPassword" id="newPassword" required/>
+            </p>
+            <p>
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" name="confirmPassword" id="confirmPassword" required/>
+            </p>
+            <input type="submit" />
+        </form>
+    </section>
+</main>
 </body>
 </html>
